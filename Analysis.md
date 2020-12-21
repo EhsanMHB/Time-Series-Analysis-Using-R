@@ -8,3 +8,5 @@ The data set includes a monthly time series of monthly total number of passenger
 
 #### Step 1.
 At first, we plot our data to examine their patterns or some irregularities. In this case, number of passengers does not show significant outliers to take into account. However, **tsclean()** is a convenient method for outlier removal and inputting missing values which is not our purpose now.
+
+![](images/)
