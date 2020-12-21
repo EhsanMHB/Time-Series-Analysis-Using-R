@@ -42,4 +42,10 @@ Now using ARIMA parameters and ***KalmanRun()*** function in R we would be able 
 
 In the following plot you would be able to see estimated values for missing observations.
 
-![](images/ARIMA%20model.png)
+![](images/estimated%20values%20plot.png)
+
+Also, the estimated values for missing observations have been reported in the following table:
+
+![](images/estimated%20values%20table.png)
+
+In addition, considering these values we could fit another ARIMA model and do forecasting for future values.
