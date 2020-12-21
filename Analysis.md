@@ -9,12 +9,12 @@ The data set includes a monthly time series of monthly total number of passenger
 #### Step 1.
 At first, we plot our data to examine their patterns or some irregularities. In this case, number of passengers does not show significant outliers to take into account. However, ***tsclean()*** is a convenient method for outlier removal and inputting missing values which is not our purpose now.
 
-image 1
+![](images/data%20plot.png)
 
 #### Step 2.
 Autocorrelation plots (also known as **ACF** function) are a useful visual tool to determine whether a series is stationary or not. These plots can also help choosing the order parameters for **ARIMA** model. However, ***auto.arima()*** function in **R** is able to work with time series with missing values and find the optimal arima parameters. In this case, we have implemented the ***auto.arima()*** and the fitted **ARIMA** model is as follows:
 
-image 2
+![](images/ARIMA%20model.png)
 
 The model is a seasonal ARIMA model with:
 
@@ -42,10 +42,10 @@ Now using ARIMA parameters and ***KalmanRun()*** function in R we would be able 
 
 In the following plot you would be able to see estimated values for missing observations.
 
-image 3
+![](images/estimated%20values%20plot.png)
 
 Also, the estimated values for missing observations have been reported in the following table:
 
-image 4
+![](images/estimated%20values%20table.png)
 
 In addition, considering these values we could fit another ARIMA model and do forecasting for future values.
