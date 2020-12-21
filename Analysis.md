@@ -11,11 +11,10 @@ At first, we plot our data to examine their patterns or some irregularities. In 
 
 <p align="center"> <img src="images/data%20plot.png" width="600" height="400"> 
 
-
 #### Step 2.
 Autocorrelation plots (also known as **ACF** function) are a useful visual tool to determine whether a series is stationary or not. These plots can also help choosing the order parameters for **ARIMA** model. However, ***auto.arima()*** function in **R** is able to work with time series with missing values and find the optimal arima parameters. In this case, we have implemented the ***auto.arima()*** and the fitted **ARIMA** model is as follows:
 
-![](images/ARIMA%20model.png)
+<p align="center"> <img src="images/ARIMA%20model.png" width="600" height="300"> 
 
 The model is a seasonal ARIMA model with:
 
@@ -43,10 +42,10 @@ Now using ARIMA parameters and ***KalmanRun()*** function in R we would be able 
 
 In the following plot you would be able to see estimated values for missing observations.
 
-![](images/estimated%20values%20plot.png)
+<p align="center"> <img src="images/estimated%20values%20plot.png" width="600" height="400"> 
 
 Also, the estimated values for missing observations have been reported in the following table:
 
-![](images/estimated%20values%20table.png)
+<p align="center"> <img src="images/estimated%20values%20table.png" width="800" height="100"> 
 
 In addition, considering these values we could fit another ARIMA model and do forecasting for future values.
