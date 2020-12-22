@@ -46,6 +46,6 @@ In the following plot you would be able to see estimated values for missing obse
 
 Also, the estimated values for missing observations have been reported in the following table:
 
-<p align="center"> <img src="images/estimated%20values%20table.png" width="900" height="150"> 
+<p align="center"> <img src="images/estimated%20values%20table.png" width="900" height="125"> 
 
 In addition, considering these values we could fit another ARIMA model and do forecasting for future values.
